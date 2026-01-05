@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全部公告 - 國立臺中教育大學學生會</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Specific Styles for All News Page */
+        .page-header {
+            padding-top: calc(var(--nav-height) + 50px);
+            padding-bottom: 50px;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .list-container {
+            max-width: 1000px;
+            margin: 0 auto 100px;
+            padding: 0 2rem;
+        }
+
+        .all-news-item {
+            display: grid;
+            grid-template-columns: 120px 1fr 40px;
+            align-items: center;
+            background: white;
+            padding: 2rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            transition: var(--transition-base);
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .all-news-item:first-child {
+            border-top-left-radius: var(--border-radius-lg);
+            border-top-right-radius: var(--border-radius-lg);
+        }
+
+        .all-news-item:last-child {
+            border-bottom-left-radius: var(--border-radius-lg);
+            border-bottom-right-radius: var(--border-radius-lg);
+            border-bottom: none;
+        }
+
+        .all-news-item:hover {
+            background-color: #f9f9fab0;
+            transform: translateX(10px);
+        }
+
+        .news-date {
+            font-family: var(--font-sans);
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .news-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .news-arrow {
+            color: var(--accent-color);
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: var(--transition-base);
+        }
+
+        .all-news-item:hover .news-arrow {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation (Reused) -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <img src="img/學生會會徽.png" alt="NTCU Logo">
+                </div>
+                <span class="logo-text">國立臺中教育大學學生會</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li class="dropdown">
+                    <a href="#" class="active">公告專區 <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item">
+                            <h3>最新公告</h3>
+                            <p>查看所有最新消息與通知。</p>
+                        </div>
+                        <div class="dropdown-item">
+                            <h3>更多公告</h3>
+                            <p>瀏覽歷史公告存檔。</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">活動日曆</a></li>
+                <li class="dropdown">
+                    <a href="#">學生會 <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <!-- Same menu items -->
+                        <div class="dropdown-item">
+                            <h3>組織介紹</h3>
+                            <p>了解學生會的結構與目標。</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Simplified nav for brevity -->
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>全部公告</h1>
+            <p style="color: var(--text-secondary);">瀏覽學生會發布的所有歷史訊息與重要通知。</p>
+        </div>
+    </div>
+
+    <main class="list-container card" style="padding: 0; overflow: hidden;" id="all-news-container">
+        <div style="padding: 3rem; text-align: center; color: #999;">
+            <i class="fas fa-spinner fa-spin"></i> 載入所有公告...
+        </div>
+    </main>
+
+    <!-- Footer (Reused) -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="img/學生會會徽.png" alt="NTCU Logo" width="24" height="24">
+                    <span>國立臺中教育大學學生會</span>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2025 國立臺中教育大學學生會. 版權所有.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/news.js"></script>
+</body>
+
+</html>

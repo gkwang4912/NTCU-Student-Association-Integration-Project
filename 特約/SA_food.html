@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>學生會特約店家</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="container top-inner">
+      <div class="logo"><span class="logo-emoji">🐷</span><span class="brand">學生會特約店家</span></div>
+      <nav>
+        <a href="#home" class="nav-link active">首頁</a>
+        <a href="#partners" class="nav-link">特約店家</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Wood banner -->
+  <div class="wood" id="home">
+    <div class="container wood-inner">
+      <div class="wood-title">國立臺中教育大學 學生會</div>
+      <div class="wood-sub">優惠特約｜吃喝玩樂｜校園合作</div>
+    </div>
+  </div>
+
+  <main class="container">
+    <!-- 総表 + 簡介 -->
+    <section id="partners" class="grid grid-2">
+      <div class="card" style="padding:22px">
+        <h2 class="section-title">特約店家總表</h2>
+        <div class="embed">
+          <!-- 在此替換為實際 Google 試算表嵌入連結 -->
+          <iframe class="iframe" title="sheet-embed"></iframe>
+        </div>
+      </div>
+      <div class="card" style="padding:22px">
+        <h2 class="section-title">特約店家地圖</h2>
+        <div class="embed">
+          <!-- 在此替換為實際 Google 地圖嵌入連結 -->
+          <iframe class="iframe" title="map-embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- 最新特約商家 -->
+    <section class="card" style="padding:22px">
+      <h2 class="section-title">最新特約商家</h2>
+      <ul class="latest-list">
+        <li class="latest-item">
+          <div class="latest-date">114.09.22</div>
+          <a class="latest-link" href="#">法法美甲 Frenchie Nail</a>
+        </li>
+        <li class="latest-item">
+          <div class="latest-date">114.09.10</div>
+          <a class="latest-link" href="#">Straight A 台中教大門市</a>
+        </li>
+        <li class="latest-item">
+          <div class="latest-date">114.08.13</div>
+          <a class="latest-link" href="#">我出去一下。澎湖民宿</a>
+        </li>
+      </ul>
+      <div style="margin-top:18px">
+        <button style="padding:10px 16px;border:1px solid #111;border-radius:10px;background:#fff;font-weight:700">更多特約店家</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="grid">
+      <div class="card" style="padding:22px;display:flex;align-items:center;gap:26px">
+        <div class="stamp" aria-hidden="true"></div>
+        <div>
+          <div style="font-weight:800;margin-bottom:10px">關於我們：</div>
+          <a class="ig" href="#" aria-label="Instagram">
+            <span>📸</span><span>@ntcusa</span>
+          </a>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:24px">
+        國立臺中教育大學學生會 NTCUSA<br/>
+        網頁維護：國立臺中教育大學學生會公開部
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

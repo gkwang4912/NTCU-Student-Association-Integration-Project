@@ -1,0 +1,65 @@
+:root{
+  --bg:#faf8f1;
+  --card:#ffffff;
+  --ink:#1a1a1a;
+  --muted:#878787;
+  --accent:#c37b4a;
+  --accent-2:#f2cf97;
+  --brand:#111;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:'Noto Sans TC',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue','PingFang TC','Microsoft JhengHei',sans-serif}
+a{color:inherit;text-decoration:none}
+.container{max-width:1120px;margin:0 auto;padding:0 20px}
+
+/* Top bar */
+.topbar{position:sticky;top:0;z-index:30;background:#fff8efb8;backdrop-filter:blur(8px);border-bottom:1px solid #eee}
+.top-inner{display:flex;align-items:center;gap:14px;padding:10px 0}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700}
+.logo-emoji{font-size:22px}
+.brand{font-weight:800}
+nav{margin-left:auto;display:flex;gap:28px}
+nav a{position:relative;padding:10px 4px;font-weight:600;color:#444}
+nav a.active::after,nav a:hover::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:3px;background:#111;border-radius:3px}
+
+/* Wood banner */
+.wood{position:relative;isolation:isolate}
+.wood::before{content:"";position:absolute;inset:0;z-index:-1;/* simple wood-ish bg */
+  background:
+    radial-gradient(1000px 200px at 50% -60px, #fff0, #0002),
+    repeating-linear-gradient(90deg,#f2dcc0 0 38px,#e5c7a0 38px 74px,#e2c59b 74px 112px),
+    linear-gradient(180deg,#f5e5cf 0,#f1d6b6 100%);
+}
+.wood-inner{padding:38px 0 24px; text-align:center}
+.wood-title{font-size:44px;letter-spacing:6px;font-weight:900;color:#312a25;text-shadow:0 2px 0 #fff7, 0 10px 30px #0002}
+.wood-sub{margin-top:6px;color:#5a5048}
+
+/* Sections */
+section{padding:36px 0}
+.card{background:var(--card);border:1px solid #eee;border-radius:14px;box-shadow:0 6px 26px #0000000a;overflow:hidden}
+.section-title{font-size:28px;font-weight:900;margin:0 0 18px 0;display:flex;align-items:center;gap:10px}
+.section-title::before{content:"";width:6px;height:26px;background:#111;border-radius:10px}
+
+/* Grid */
+.grid{display:grid;gap:20px}
+@media(min-width:960px){
+  .grid-2{grid-template-columns:1.2fr .8fr}
+}
+
+/* Embeds */
+.embed{background:#111;position:relative;border-radius:10px;overflow:hidden}
+.embed::after{content:"預覽 / 嵌入區";position:absolute;right:10px;bottom:10px;color:#fff9;font-size:12px;background:#ffffff25;padding:4px 8px;border-radius:999px}
+.iframe{width:100%;height:540px;border:0;display:block;background:#f6f6f6 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800"><rect width="100%" height="100%" fill="%23f6f6f6"/><g font-family="sans-serif" font-size="18" fill="%23888"><text x="50%" y="50%" text-anchor="middle">在此嵌入 Google 試算表 / 地圖</text></g></svg>') center/contain no-repeat}
+
+/* Latest list */
+.latest-list{list-style:none;margin:0;padding:0}
+.latest-item{padding:12px 0;border-bottom:1px dashed #e9e9e9}
+.latest-date{color:#777;font-size:14px}
+.latest-link{display:inline-block;margin-top:4px;font-weight:700;border-bottom:2px solid #111}
+
+/* Footer */
+footer{padding:40px 0 80px;color:#5d5d5d}
+.footer-brand{display:flex;gap:18px;align-items:center}
+.stamp{width:110px;height:110px;border-radius:18px;background:linear-gradient(#ffe7d7,#ffeede);display:grid;place-items:center;border:1px solid #f3d3bf}
+.stamp:after{content:"🧁";font-size:40px}
+.ig{display:inline-flex;gap:10px;align-items:center;border:1px solid #111;padding:10px 14px;border-radius:12px;font-weight:700}

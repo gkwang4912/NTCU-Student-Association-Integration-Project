@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>活動日曆 - 國立臺中教育大學學生會</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        .page-header {
+            padding-top: calc(var(--nav-height) + 50px);
+            padding-bottom: 50px;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .calendar-container {
+            max-width: 1200px;
+            margin: 0 auto 100px;
+            padding: 0 2rem;
+            min-height: 800px;
+        }
+
+        .full-calendar-iframe {
+            width: 100%;
+            height: 800px;
+            border: none;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-soft);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <img src="img/學生會會徽.png" alt="NTCU Logo">
+                </div>
+                <span class="logo-text">國立臺中教育大學學生會</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li class="dropdown">
+                    <a href="#">公告專區 <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item">
+                            <h3>最新公告</h3>
+                            <p>查看所有最新消息與通知。</p>
+                        </div>
+                        <div class="dropdown-item">
+                            <h3>更多公告</h3>
+                            <p>瀏覽歷史公告存檔。</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="calendar.html" class="active">活動日曆</a></li>
+                <li class="dropdown">
+                    <a href="#">學生會 <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item">
+                            <h3>組織介紹</h3>
+                            <p>了解學生會的結構與目標。</p>
+                        </div>
+                        <div class="dropdown-item">
+                            <h3>學生會空間</h3>
+                            <p>探索我們提供給學生的空間與資源。</p>
+                        </div>
+                        <div class="dropdown-item">
+                            <h3>學生會簡史</h3>
+                            <p>回顧學生會的發展歷程。</p>
+                        </div>
+                        <div class="dropdown-item">
+                            <h3>歷屆學生會</h3>
+                            <p>查看過去的學生會成員與成就。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">議會專區 <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item">
+                            <h3>組織介紹</h3>
+                            <p>認識學生議會的職能與成員。</p>
+                        </div>
+                        <div class="dropdown-item">
+                            <h3>議會空間</h3>
+                            <p>了解議會的會議與辦公空間。</p>
+                        </div>
+                        <div class="dropdown-item">
+                            <h3>自治法規</h3>
+                            <p>查閱學生自治的相關法規。</p>
+                        </div>
+                        <div class="dropdown-item">
+                            <h3>歷屆會議資料</h3>
+                            <p>下載與查閱過去的會議記錄。</p>
+                        </div>
+                        <div class="dropdown-item">
+                            <h3>歷屆學生議員名單</h3>
+                            <p>瀏覽歷屆學生議員的資訊。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">選舉委員會 <i class="fas fa-chevron-down"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>活動日曆</h1>
+            <p style="color: var(--text-secondary);">掌握學生會的每一場精彩活動與重要時程。</p>
+        </div>
+    </div>
+
+    <main class="calendar-container">
+        <iframe
+            src="https://calendar.google.com/calendar/embed?src=NTkxYmU4Yzk2YWJjMzViYmUyOTA0MjBiYzNiOGM3MzYwNTVlMDNmMWJkYjEzZTVkNWRlMWRjY2Y4NjA1MWM1OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&ctz=Asia%2FTaipei&bgcolor=%23ffffff&color=%231A2C4E&showTitle=0&showNav=1&showDate=1&showPrint=1&showTabs=1&showCalendars=1&showTz=1"
+            class="full-calendar-iframe" frameborder="0" scrolling="no">
+        </iframe>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="img/學生會會徽.png" alt="NTCU Logo" width="24" height="24">
+                    <span>國立臺中教育大學學生會</span>
+                </div>
+            </div>
+            <div class="footer-center">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fas fa-at"></i></a>
+                    <a href="#"><i class="fab fa-line"></i></a>
+                    <a href="#"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2025 國立臺中教育大學學生會. 版權所有.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

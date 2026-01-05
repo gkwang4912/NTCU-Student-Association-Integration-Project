@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公告詳情 - 國立臺中教育大學學生會</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        .detail-header {
+            padding-top: calc(var(--nav-height) + 30px);
+            padding-bottom: 30px;
+            background: var(--surface-color);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            margin-bottom: 1rem;
+            transition: var(--transition-base);
+        }
+
+        .back-link:hover {
+            color: var(--primary-color);
+            transform: translateX(-5px);
+        }
+
+        .article-meta {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .doc-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            min-height: 800px;
+            box-shadow: var(--shadow-soft);
+            background: white;
+            border-radius: 8px;
+            /* Clean look */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh;
+            min-height: 800px;
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <img src="img/學生會會徽.png" alt="NTCU Logo">
+                </div>
+                <span class="logo-text">國立臺中教育大學學生會</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="all_news.html">公告專區</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="detail-header">
+        <div class="container">
+            <a href="javascript:history.back()" class="back-link"><i class="fas fa-arrow-left"></i> 返回上一頁</a>
+            <div class="article-meta" id="detail-date">Loading date...</div>
+            <h1 id="detail-title">Loading title...</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="doc-container">
+            <iframe id="doc-frame" src="about:blank"></iframe>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <span>國立臺中教育大學學生會</span>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2025 國立臺中教育大學學生會. 版權所有.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/news.js"></script>
+</body>
+
+</html>
