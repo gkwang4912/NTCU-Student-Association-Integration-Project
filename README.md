@@ -15,24 +15,24 @@
 
 ```mermaid
 graph TD
-    User[使用者 (Browser)]
-    Admin[管理者 (Local)]
+    User["使用者 (Browser)"]
+    Admin["管理者 (Local)"]
     
     subgraph Frontend [前端展示系統]
-        Main[Main_page (官網入口)]
-        Affiliate[特約 (特約店家子站)]
-        NewsJS[news.js (公告邏輯)]
+        Main["Main_page (官網入口)"]
+        Affiliate["特約 (特約店家子站)"]
+        NewsJS["news.js (公告邏輯)"]
     end
     
     subgraph External [雲端服務]
-        GSheet[Google Sheets (資料庫/CMS)]
-        GMap[Google Maps (地圖服務)]
-        Gemini[Google Gemini API (AI 模型)]
+        GSheet["Google Sheets (資料庫/CMS)"]
+        GMap["Google Maps (地圖服務)"]
+        Gemini["Google Gemini API (AI 模型)"]
     end
     
     subgraph LocalBackend [本機資料分析工具]
-        EmotionPy[emotion_analyzer.py (情緒分析)]
-        CloudPy[wordcloud_generator.py (文字雲生成)]
+        EmotionPy["emotion_analyzer.py (情緒分析)"]
+        CloudPy["wordcloud_generator.py (文字雲生成)"]
         RawData[Excel 原始資料]
         ResultData[分析結果 / 圖片]
     end
