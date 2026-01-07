@@ -1,4 +1,5 @@
-# 國立臺中教育大學學生會官網整合專案 (NTCU Student Association Integration Project)
+# 國立臺中教育大學學生會官網整合專案 
+(NTCU Student Association Integration Project)
 
 ## 專案總覽 (Project Overview)
 本專案整合了國立臺中教育大學學生會的官方網站前端展示與後端資料分析工具。主要用途為提供學生校園資訊、特約商店查詢，並具備針對學生言論進行情緒分析與關鍵字視覺化的後端工具。
@@ -219,3 +220,4 @@ Web/SA/
 
 ## 補充說明 (Notes)
 - 系統中的 `小詠`、`大詠` 為校內宿舍名稱，可能會在 AI 分析時被誤判，提示詞中已加入相關背景知識修正。
+
