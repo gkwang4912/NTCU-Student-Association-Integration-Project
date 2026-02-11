@@ -1,0 +1,1543 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "ucpMf",
+      "x": 0,
+      "y": 0,
+      "name": "特約商家網站",
+      "clip": true,
+      "width": 1440,
+      "fill": "#FAF8F4",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "r1EvB",
+          "name": "導覽列",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFFCC",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "VmtXU",
+              "name": "Logo群組",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oLsy9",
+                  "name": "Logo圖示",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "#C67A52",
+                  "cornerRadius": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vRMoS",
+                      "name": "logoInner",
+                      "fill": "#FFFFFF",
+                      "content": "S",
+                      "textAlignVertical": "center",
+                      "fontFamily": "IBM Plex Sans",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "V6QMo",
+                  "name": "brandText",
+                  "fill": "#2C2C2C",
+                  "content": "國立台中教育大學學生會特約商家",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 20,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "x5Cqb",
+              "name": "導覽連結",
+              "gap": 36,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vk15X",
+                  "name": "nav1",
+                  "fill": "#C67A52",
+                  "content": "首頁",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 15,
+                  "fontWeight": "semibold"
+                },
+                {
+                  "type": "text",
+                  "id": "5Mt26",
+                  "name": "nav2",
+                  "fill": "#6B6B6B",
+                  "content": "特約店家",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 15,
+                  "fontWeight": "medium"
+                },
+                {
+                  "type": "text",
+                  "id": "2Wpm5",
+                  "name": "nav3",
+                  "fill": "#6B6B6B",
+                  "content": "最新消息",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 15,
+                  "fontWeight": "medium"
+                },
+                {
+                  "type": "text",
+                  "id": "OjfI5",
+                  "name": "nav4",
+                  "fill": "#6B6B6B",
+                  "content": "關於我們",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 15,
+                  "fontWeight": "medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZCrvB",
+          "name": "Hero橫幅",
+          "metadata": {
+            "type": "unsplash",
+            "username": "lusiakomala",
+            "link": "https://unsplash.com/@lusiakomala",
+            "author": "Lusia Komala Widiastuti"
+          },
+          "width": "fill_container",
+          "height": 420,
+          "fill": "#2C2C2CCC",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "2i2BN",
+              "name": "文字群組",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UYg4F",
+                  "name": "heroTitle",
+                  "fill": "#FFFFFF",
+                  "content": "專屬學生的優惠特約",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 56,
+                  "fontWeight": "bold",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "ybsME",
+                  "name": "heroSub",
+                  "fill": "#FFFFFFCC",
+                  "content": "探索校園周邊精選合作店家，享受學生專屬折扣與好康",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XDhxh",
+              "name": "底部區塊",
+              "width": "fill_container",
+              "height": 171,
+              "gap": 24
+            },
+            {
+              "type": "frame",
+              "id": "SEYDf",
+              "name": "指示點群組",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XtVJM",
+                  "name": "dot1",
+                  "width": 12,
+                  "height": 12,
+                  "fill": "#C67A52",
+                  "cornerRadius": 6
+                },
+                {
+                  "type": "frame",
+                  "id": "P4KEf",
+                  "name": "dot2",
+                  "width": 12,
+                  "height": 12,
+                  "fill": "#FFFFFF80",
+                  "cornerRadius": 6
+                },
+                {
+                  "type": "frame",
+                  "id": "C9CRc",
+                  "name": "dot3",
+                  "width": 12,
+                  "height": 12,
+                  "fill": "#FFFFFF80",
+                  "cornerRadius": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ETR77",
+          "name": "主要內容區塊",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            60,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ea56m",
+              "name": "特約店家區塊",
+              "width": 1325,
+              "height": 314,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9g2RQ",
+                  "name": "區塊標題",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GlAHn",
+                      "name": "headerIcon",
+                      "width": 6,
+                      "height": 28,
+                      "fill": "#C67A52",
+                      "cornerRadius": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZXFwH",
+                      "name": "headerText",
+                      "fill": "#2C2C2C",
+                      "content": "精選特約店家",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 28,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M3Eqw",
+                  "name": "店家網格列表",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "padding": [
+                    24,
+                    60
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "S8ZS2",
+                      "name": "票券1",
+                      "clip": true,
+                      "width": 190,
+                      "height": 280,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "OVShb",
+                          "name": "票券頭",
+                          "width": "fill_container",
+                          "height": 80,
+                          "fill": "#C67A52",
+                          "padding": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "M2Cah",
+                              "name": "d1",
+                              "fill": "#FFFFFF",
+                              "content": "9折",
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 40,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "1M9sE",
+                              "name": "sd1",
+                              "fill": "#FFFFFFCC",
+                              "content": "持學生證享",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "z68hy",
+                          "name": "虛線",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5YwrM",
+                          "name": "票券身",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "bQxN3",
+                              "name": "i1",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "it6Ot",
+                                  "name": "tt1",
+                                  "fill": "#2C2C2C",
+                                  "content": "好食光\n早午餐",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 18,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "5zlwJ",
+                                  "name": "c1",
+                                  "fill": "#9A9A9A",
+                                  "content": "早午餐",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "yxhZQ",
+                              "name": "lc1",
+                              "fill": "#6B6B6B",
+                              "content": "📍 台中市西區",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "pq4w3",
+                              "name": "bt1",
+                              "width": "fill_container",
+                              "fill": "#FFF8F0",
+                              "cornerRadius": 6,
+                              "padding": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "azHIM",
+                                  "name": "btt1",
+                                  "fill": "#C67A52",
+                                  "content": "領取優惠",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 13,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AMonZ",
+                      "name": "票券2",
+                      "clip": true,
+                      "width": 190,
+                      "height": 280,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "awCjY",
+                          "name": "票券頭",
+                          "width": "fill_container",
+                          "height": 80,
+                          "fill": "#C67A52",
+                          "padding": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "quWjJ",
+                              "name": "d2",
+                              "fill": "#FFFFFF",
+                              "content": "升級",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 32,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "abd5d",
+                              "name": "sd2",
+                              "fill": "#FFFFFFCC",
+                              "content": "飲品免費升級大杯",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 11,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ARLiL",
+                          "name": "虛線",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "77XaI",
+                          "name": "票券身",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "XLttM",
+                              "name": "i2",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "NgC56",
+                                  "name": "tt2",
+                                  "fill": "#2C2C2C",
+                                  "content": "角落咖啡\nCorner Cafe",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 18,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "vrl6e",
+                                  "name": "c2",
+                                  "fill": "#9A9A9A",
+                                  "content": "咖啡廳",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "WJCxq",
+                              "name": "lc2",
+                              "fill": "#6B6B6B",
+                              "content": "📍 台中市西區",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "28d9X",
+                              "name": "bt2",
+                              "width": "fill_container",
+                              "fill": "#FFF8F0",
+                              "cornerRadius": 6,
+                              "padding": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XhFVz",
+                                  "name": "btt2",
+                                  "fill": "#C67A52",
+                                  "content": "領取優惠",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 13,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "E9BHr",
+                      "name": "票券3",
+                      "clip": true,
+                      "width": 190,
+                      "height": 280,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PZFCN",
+                          "name": "票券頭",
+                          "width": "fill_container",
+                          "height": 80,
+                          "fill": "#C67A52",
+                          "padding": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "q25RO",
+                              "name": "d3",
+                              "fill": "#FFFFFF",
+                              "content": "折10元",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 32,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "faaeY",
+                              "name": "sd3",
+                              "fill": "#FFFFFFCC",
+                              "content": "套餐折抵",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "2lQkR",
+                          "name": "虛線",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ik9eI",
+                          "name": "票券身",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "HzHCg",
+                              "name": "i3",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "6AoVF",
+                                  "name": "tt3",
+                                  "fill": "#2C2C2C",
+                                  "content": "義式風味\n小館",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 18,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "CAeAf",
+                                  "name": "c3",
+                                  "fill": "#9A9A9A",
+                                  "content": "異國料理",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "VTSAI",
+                              "name": "lc3",
+                              "fill": "#6B6B6B",
+                              "content": "📍 台中市西區",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "MrUF3",
+                              "name": "bt3",
+                              "width": "fill_container",
+                              "fill": "#FFF8F0",
+                              "cornerRadius": 6,
+                              "padding": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "hYUGt",
+                                  "name": "btt3",
+                                  "fill": "#C67A52",
+                                  "content": "領取優惠",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 13,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hwxXF",
+                      "name": "左箭頭",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kLkAw",
+                          "name": "prevIcon",
+                          "fill": "#C67A52",
+                          "content": "❮",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NkASy",
+                      "name": "右箭頭",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jNhLO",
+                          "name": "nextIcon",
+                          "fill": "#C67A52",
+                          "content": "❯",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eIiK0",
+                      "name": "票券4",
+                      "clip": true,
+                      "width": 190,
+                      "height": 280,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DhKMA",
+                          "name": "票券頭",
+                          "width": "fill_container",
+                          "height": 80,
+                          "fill": "#C67A52",
+                          "padding": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uaimb",
+                              "name": "d4",
+                              "fill": "#FFFFFF",
+                              "content": "送小菜",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 32,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "T7nKe",
+                              "name": "sd4",
+                              "fill": "#FFFFFFCC",
+                              "content": "滿百即送",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zMbeA",
+                          "name": "虛線",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0UsDp",
+                          "name": "票券身",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "9PwIW",
+                              "name": "i4",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "lULlN",
+                                  "name": "tt4",
+                                  "fill": "#2C2C2C",
+                                  "content": "老街\n牛肉麵",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 18,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "wn20T",
+                                  "name": "c4",
+                                  "fill": "#9A9A9A",
+                                  "content": "台式小吃",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "G6x1h",
+                              "name": "lc4",
+                              "fill": "#6B6B6B",
+                              "content": "📍 台中市西區",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "3reVH",
+                              "name": "bt4",
+                              "width": "fill_container",
+                              "fill": "#FFF8F0",
+                              "cornerRadius": 6,
+                              "padding": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "eWrt7",
+                                  "name": "btt4",
+                                  "fill": "#C67A52",
+                                  "content": "領取優惠",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 13,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3a69w",
+                      "name": "票券5",
+                      "clip": true,
+                      "width": 190,
+                      "height": 280,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Sf7mf",
+                          "name": "票券頭",
+                          "width": "fill_container",
+                          "height": 80,
+                          "fill": "#C67A52",
+                          "padding": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "klf3w",
+                              "name": "d5",
+                              "fill": "#FFFFFF",
+                              "content": "半價",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 32,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "S8caX",
+                              "name": "sd5",
+                              "fill": "#FFFFFFCC",
+                              "content": "第二杯半價",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "iK56Y",
+                          "name": "虛線",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tPbb7",
+                          "name": "票券身",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "pKDTD",
+                              "name": "i5",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "sFC0G",
+                                  "name": "tt5",
+                                  "fill": "#2C2C2C",
+                                  "content": "清新\n茶飲",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 18,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "TQ4u9",
+                                  "name": "c5",
+                                  "fill": "#9A9A9A",
+                                  "content": "飲料店",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "mWXBd",
+                              "name": "lc5",
+                              "fill": "#6B6B6B",
+                              "content": "📍 台中市西區",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Mwur1",
+                              "name": "bt5",
+                              "width": "fill_container",
+                              "fill": "#FFF8F0",
+                              "cornerRadius": 6,
+                              "padding": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "H8EHC",
+                                  "name": "btt5",
+                                  "fill": "#C67A52",
+                                  "content": "領取優惠",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 13,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7Ielr",
+                      "name": "票券6",
+                      "clip": true,
+                      "width": 190,
+                      "height": 280,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "lbbru",
+                          "name": "票券頭",
+                          "width": "fill_container",
+                          "height": 80,
+                          "fill": "#C67A52",
+                          "padding": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "2060d",
+                              "name": "d6",
+                              "fill": "#FFFFFF",
+                              "content": "95折",
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 32,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "8zal7",
+                              "name": "sd6",
+                              "fill": "#FFFFFFCC",
+                              "content": "內用95折",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XoAez",
+                          "name": "虛線",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HgQ4E",
+                          "name": "票券身",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "TILc1",
+                              "name": "i6",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "esHb5",
+                                  "name": "tt6",
+                                  "fill": "#2C2C2C",
+                                  "content": "日式定食屋",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 18,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "hifrL",
+                                  "name": "c6",
+                                  "fill": "#9A9A9A",
+                                  "content": "日式料理",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "mj27z",
+                              "name": "lc6",
+                              "fill": "#6B6B6B",
+                              "content": "📍 台中市西區",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ZCO3H",
+                              "name": "bt6",
+                              "width": "fill_container",
+                              "fill": "#FFF8F0",
+                              "cornerRadius": 6,
+                              "padding": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XChvB",
+                                  "name": "btt6",
+                                  "fill": "#C67A52",
+                                  "content": "領取優惠",
+                                  "fontFamily": "Noto Sans TC",
+                                  "fontSize": 13,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q9EP5",
+              "name": "地圖區塊",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Vol6Z",
+                  "name": "區塊標題2",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5ppkC",
+                      "name": "headerIcon2",
+                      "width": 6,
+                      "height": 28,
+                      "fill": "#C67A52",
+                      "cornerRadius": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "JSWho",
+                      "name": "headerText2",
+                      "fill": "#2C2C2C",
+                      "content": "特約店家地圖",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 28,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "taDHB",
+                  "name": "地圖容器",
+                  "width": "fill_container",
+                  "height": 500,
+                  "fill": "#F2F2F2",
+                  "cornerRadius": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "o2uQ8",
+                      "name": "地圖佔位符",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "C1bH3",
+                          "name": "mapIcon",
+                          "content": "🗺️",
+                          "fontFamily": "Inter",
+                          "fontSize": 48,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lD2oX",
+                          "name": "mapText",
+                          "fill": "#9A9A9A",
+                          "content": "Google Map 嵌入區域",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KEqeH",
+              "name": "最新商家區塊",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cu9BO",
+                  "name": "區塊標題3",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zoZnZ",
+                      "name": "headerIcon3",
+                      "width": 4,
+                      "height": 24,
+                      "fill": "#C67A52",
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "kW5Un",
+                      "name": "headerText3",
+                      "fill": "#2C2C2C",
+                      "content": "最新特約商家",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 24,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ihLpH",
+                  "name": "列表",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CjCdl",
+                      "name": "項目1",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "padding": [
+                        16,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "g5rbR",
+                          "name": "NEW",
+                          "fill": "#C67A52",
+                          "cornerRadius": 4,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jigBQ",
+                              "name": "badgeText1",
+                              "fill": "#FFFFFF",
+                              "content": "NEW",
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 12,
+                              "fontWeight": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "DNMGW",
+                          "name": "itemText1",
+                          "fill": "#2C2C2C",
+                          "content": "文青角落書店 - 全館書籍 95 折起",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MlTkx",
+                      "name": "項目2",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "padding": [
+                        16,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wzqsH",
+                          "name": "NEW",
+                          "fill": "#C67A52",
+                          "cornerRadius": 4,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "OFPke",
+                              "name": "badgeText2",
+                              "fill": "#FFFFFF",
+                              "content": "NEW",
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 12,
+                              "fontWeight": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "uTtcf",
+                          "name": "itemText2",
+                          "fill": "#2C2C2C",
+                          "content": "享樂KTV - 學生包廂不限時段 8 折",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u5f9s",
+                      "name": "項目3",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "padding": [
+                        16,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DI2Lw",
+                          "name": "NEW",
+                          "fill": "#C67A52",
+                          "cornerRadius": 4,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DKCoD",
+                              "name": "badgeText3",
+                              "fill": "#FFFFFF",
+                              "content": "NEW",
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 12,
+                              "fontWeight": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "NVKj0",
+                          "name": "itemText3",
+                          "fill": "#2C2C2C",
+                          "content": "極限運動中心 - 單次入場買一送一",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fzL07",
+                  "name": "更多按鈕列",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vkyqA",
+                      "name": "更多按鈕",
+                      "cornerRadius": 8,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CxXMa",
+                          "name": "moreText",
+                          "fill": "#2C2C2C",
+                          "content": "查看更多特約店家",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ntttl",
+          "name": "頁尾",
+          "width": "fill_container",
+          "fill": "#F5F2EC",
+          "gap": 48,
+          "padding": [
+            60,
+            80
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "AvbcV",
+              "name": "頁尾左側",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kjzkP",
+                  "name": "stamp",
+                  "width": 80,
+                  "height": 80,
+                  "fill": "#C67A5220",
+                  "cornerRadius": 20,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yOzeL",
+                      "name": "stampIcon",
+                      "content": "🧁",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cTymV",
+                  "name": "footerBrand",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AQb04",
+                      "name": "brandName",
+                      "fill": "#2C2C2C",
+                      "content": "國立臺中教育大學 學生會",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mo47l",
+                      "name": "brandSub",
+                      "fill": "#6B6B6B",
+                      "content": "特約店家平台",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LBG6w",
+              "name": "頁尾右側",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "njzDR",
+                  "name": "socialLink",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "R6qMq",
+                      "name": "igIcon",
+                      "content": "📸",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PJ5fo",
+                      "name": "igText",
+                      "fill": "#C67A52",
+                      "content": "@ntcu_sa",
+                      "fontFamily": "IBM Plex Sans",
+                      "fontSize": 16,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "kQtAG",
+                  "name": "copyright",
+                  "fill": "#9A9A9A",
+                  "content": "© 2024 NTCUSA. All rights reserved.",
+                  "fontFamily": "IBM Plex Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "GYEtG",
+                  "name": "maintain",
+                  "fill": "#9A9A9A",
+                  "content": "網頁維護：國立臺中教育大學學生會公開部",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>學生會特約店家 | 國立臺中教育大學</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Topbar -->
+    <header class="topbar">
+        <div class="container top-inner">
+            <div class="logo">
+                <div class="logo-box">
+                    <img src="web_image/icon.jpg" alt="Logo">
+                </div>
+                <span class="brand">學生會特約店家</span>
+            </div>
+            <nav id="main-nav">
+                <a href="#home" class="nav-link active">首頁</a>
+                <a href="#partners" class="nav-link">特約店家</a>
+                <a href="#latest" class="nav-link">最新消息</a>
+                <a href="https://www.instagram.com/ntcu_sa/" target="_blank" class="nav-link">關於我們</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Carousel -->
+    <div class="hero" id="home">
+        <div id="hero-slides-container">
+            <!-- Slides will be injected by JS -->
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div id="hero-text-area">
+                <h1 class="hero-title" id="hero-title">專屬學生的優惠特約</h1>
+                <p class="hero-sub" id="hero-sub">探索校園周邊精選合作店家，享受學生專屬折扣與好康</p>
+            </div>
+        </div>
+
+        <div class="hero-controls">
+            <div class="hero-arrow" id="hero-prev">❮</div>
+            <div class="hero-arrow" id="hero-next">❯</div>
+        </div>
+        <div class="hero-dots" id="hero-dots">
+            <!-- Dots injected by JS -->
+        </div>
+    </div>
+
+    <main class="container">
+        <!-- Partner Section -->
+        <section id="partners">
+            <div class="section-header">
+                <div class="section-accent"></div>
+                <h2 class="section-title">精選特約店家</h2>
+            </div>
+
+            <div class="partners-wrapper">
+                <button class="nav-arrow prev" id="page-prev">❮</button>
+                <div id="partners-grid" class="partners-grid">
+                    <div id="loading" class="loading">正在為您準備專屬優惠...</div>
+                </div>
+                <button class="nav-arrow next" id="page-next">❯</button>
+            </div>
+
+        </section>
+
+        <!-- Map Section -->
+        <section>
+            <div class="section-header">
+                <div class="section-accent"></div>
+                <h2 class="section-title">特約店家地圖</h2>
+            </div>
+            <div class="card-map">
+                <div class="map-container">
+                    <iframe id="google-map"
+                        src="https://maps.google.com/maps?q=國立臺中教育大學&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        title="map"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Partners -->
+        <section id="latest">
+            <div class="section-header">
+                <div class="section-accent"></div>
+                <h2 class="section-title">最新特約商家</h2>
+            </div>
+            <ul id="latest-list" class="latest-list">
+                <!-- Injected by JS -->
+            </ul>
+            <div style="margin-top:24px;">
+                <a href="https://docs.google.com/spreadsheets/d/1NRrs9PXp_1XfSAx3bDxnpII0X_YMWHWBLEl5Kn_qTuM/edit"
+                    target="_blank"
+                    style="display:inline-block; padding:12px 24px; border:1.5px solid var(--ink); border-radius:8px; font-weight:700;">查看更多特約店家</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <div class="stamp">
+                    <img src="web_image/icon.jpg" alt="Stamp">
+                </div>
+                <div class="footer-brand">
+                    <h3>國立臺中教育大學 學生會</h3>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-contacts">
+                    <a href="https://www.instagram.com/ntcu_sa/" target="_blank" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                        <span>@ntcu_sa</span>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ntcusa000@gmail.com" target="_blank"
+                        class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>ntcusa000@gmail.com</span>
+                    </a>
+                </div>
+                <p class="copyright">© 2024 NTCUSA. All rights reserved.</p>
+                <p class="maintainer">網頁維護：國立臺中教育大學學生會公關部</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
